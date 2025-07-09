@@ -1,8 +1,8 @@
 int tran_func(thread_param_t* param_p)
 {
 //*****************************************************************************
-	int					      target=1000;									        // The target value [bytes]
-  struct  timespec	tran_recv_req={0,125000};							// The control interval [nano sec]
+　int			target = 1000;					// The target value [bytes]
+  struct  timespec	tran_recv_req = {0,125000};			// The control interval [nano sec]
 //*****************************************************************************
 
   // Receiveing Process
